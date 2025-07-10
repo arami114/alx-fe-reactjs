@@ -8,7 +8,7 @@ function App() {
   return (
     <> 
      <h1> my welcomeMessage</h1>
-     <WelcomeMessage/>
+     <WelcomeMessage />
      <Header />
      <MainContent />
       <Footer />
