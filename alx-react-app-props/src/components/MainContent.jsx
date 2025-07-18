@@ -1,7 +1,7 @@
 function MainContent() {
     return (
         <main>
-            <div className="container">
+            <div>
             <p>I love to visit New York, Paris, and Tokyo.</p>
             </div>
         </main>
