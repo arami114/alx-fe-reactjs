@@ -5,7 +5,6 @@ import Footer from './components/Footer'
 import MainContent from './components/MainContent'
 import ProfilePage from './components/Profilepage'
 import UserContext from './components/UserContext'
-
 function App() {
    const userData = { name: "Jane Doe", email: "jane.doe@example.com" };
 
@@ -17,6 +16,7 @@ function App() {
       <UserContext.Provider value={userData}>
         <ProfilePage />
       </UserContext.Provider>
+      
       <Footer />
     </>
   )
