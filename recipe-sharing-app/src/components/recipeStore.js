@@ -29,6 +29,8 @@ const useRecipeStore = create((set) => ({
     recipes: state.recipes.filter((recipe) => recipe.id !== recipeId),
   })),
 
+  searchTerm: '',
+  setSearchTerm: (term) => set({ searchTerm: term }),
   
   addFavorite: (recipeId) =>
     set((state) => ({
