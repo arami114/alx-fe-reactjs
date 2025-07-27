@@ -5,6 +5,17 @@ const useRecipeStore = create((set) => ({
   recipes: [],
   favorites: [],
   recommendations: [],
+
+  addRecipe: (recipe) =>
+    set((state) => ({
+      recipes: [...state.recipes, recipe],
+    })),
+
+  // ✅ Add this
+  setRecipes: (newRecipes) =>
+    set(() => ({
+      recipes: newRecipes,
+    })),
   
   addFavorite: (recipeId) =>
     set((state) => ({
