@@ -1,15 +1,11 @@
-import { useState } from 'react'
-import UserProfile from './Components/UserProfile'
-import './App.css'
+import UserProfile from "./Components/UserProfile";
 
 function App() {
-
   return (
-    <>
+    <div>
       <UserProfile />
-      
-    </>
-  )
+    </div>
+  );
 }
 
-export default App
+export default App;
