@@ -4,7 +4,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import MainContent from './components/MainContent'
 import UserProfile from './components/UserProfile'
-
+import Counter from './components/counter'
 function App() {
   return (
     <> 
@@ -17,6 +17,7 @@ function App() {
     bio="Loves hiking and photography"
     />
       <Footer />
+      <Counter /> 
     </>
   )
 }
