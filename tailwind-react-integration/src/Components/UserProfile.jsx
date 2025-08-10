@@ -1,4 +1,4 @@
-import userImg from './userimg.png';
+//import userImg from './userimg.png';
 
 function UserProfile() {
   return (
