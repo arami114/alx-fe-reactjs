@@ -39,6 +39,12 @@ const HomePage = () => {
                   href={`/recipe/${recipe.id}`}
                   className="text-blue-500 font-medium hover:underline"
                 >
+              <Link
+                to={`/recipe/${recipe.id}`}
+                className="inline-block px-4 py-2 bg-blue-500 text-white text-sm rounded-lg hover:bg-blue-600 transition"
+              >
+                View Recipe →
+              </Link>
                   View Recipe →
                 </a>
               </div>
