@@ -8,7 +8,7 @@ const schema = Yup.object({
   password: Yup.string().min(6, 'Min 6 characters').required('Password is required'),
 })
 
-export default function FormikForm() {
+export default function FormikForm() {}
   const [status, setStatus] = useState({ type: '', message: '' })
 
   return (
@@ -57,4 +57,4 @@ export default function FormikForm() {
             </Form>
           )}
         </Formik>
-      </div>
+      </div>)
